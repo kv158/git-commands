@@ -1,0 +1,9 @@
+git config --global user.name "kv"
+
+git status
+
+git init
+
+git add --a
+
+
