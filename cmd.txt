@@ -6,5 +6,13 @@ git init
 
 git add --a
 
+git add file name
+
 git log
 
+remove git repository
+rm -rf .git
+
+clone repository
+git clone url [custom name(optional)]
+ 
