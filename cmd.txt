@@ -6,4 +6,5 @@ git init
 
 git add --a
 
+git log
 
