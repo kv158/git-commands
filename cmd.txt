@@ -26,6 +26,8 @@ diff beetwen past and staged directory
 git diff --staged
 
 direct commit (skip staging area)
+git commit -a -m "direct commit"
+
 
 
 
