@@ -19,4 +19,10 @@ git clone url [custom name(optional)]
 ignore file if already commited
  git rm --cached cmd2.txt
 
+diff beetwen staged and modified directory
+git diff
+
+diff beetwen past and staged directory
+git diff --staged
+
  
