@@ -15,4 +15,8 @@ rm -rf .git
 
 clone repository
 git clone url [custom name(optional)]
+
+ignore file if already commited
+ git rm --cached cmd2.txt
+
  
