@@ -61,7 +61,17 @@ git mv name.txt rename.txt
 
 
 git remote
-git remote -v
+git remote -v(link for push and pull)
+
+push an existing repository from the command line:-
+git remote add origin https://github.com/kv158/kv.git
+git branch -M main
+git push -u origin main
+
+
+push code to git hub
+git push -u origin master
+
 
 
 
