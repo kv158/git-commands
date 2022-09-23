@@ -71,6 +71,8 @@ git push -u origin main
 
 push code to git hub
 git push -u origin master
+git pull origin master(merge branch)
+
 
 
 
