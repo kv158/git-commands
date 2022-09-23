@@ -1,0 +1,78 @@
+git config --global user.name "kv"
+
+git status
+
+git init
+
+stage
+git add --a
+
+unstage
+git restore --staged <filename>
+
+restore(unmodify) file to old version
+git checkout -- cmd.txt
+
+restore(unmodify) repository to old version
+git checkout -f
+
+
+
+git add file name
+
+commit commands
+git commit -m "a"
+git commit --amend (change past commit or merge changes with past commit. it opens vim editor to close ->  esc :wq)
+
+git log commands
+git log
+git log --pretty=full (detailed version)
+git log --pretty=short
+git log --pretty=oneline (one liner)
+git log --since=2.days(weeks,months,years)
+git log --pretty=format:"%h--%ae"
+show log with diff
+git log -p -3(no of commits (optional))
+git log --stat(sort version)
+
+remove git repository
+rm -rf .git
+
+clone repository
+git clone url custom name(optional)
+
+remove modefication from file or remove traking
+ git rm --cached cmd2.txt
+
+remove file
+ git rm  cmd2.txt
+
+diff beetwen staged and modified directory
+git diff
+
+diff beetwen past and staged directory
+git diff --staged
+
+direct commit (skip staging area)
+git commit -a -m "direct commit"
+
+rename file
+git mv name.txt rename.txt
+
+
+git remote
+git remote -v
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
