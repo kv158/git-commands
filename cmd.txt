@@ -1,6 +1,4 @@
 git config --global user.name "kv"
-git config --global alias.st status (setup shortcut)
-git config --global alias.last 'log -p -1' (setup shortcut)
 
 git status
 
@@ -63,17 +61,7 @@ git mv name.txt rename.txt
 
 
 git remote
-git remote -v(link for push and pull)
-
-push an existing repository from the command line:-
-git remote add origin https://github.com/kv158/kv.git
-git branch -M main
-git push -u origin main
-
-
-push code to git hub
-git push -u origin master
-
+git remote -v
 
 
 
