@@ -19,3 +19,6 @@ git branch --no-merged
 delete branch 
 git branch -d devlop
 git branch -D devlop (delete unmerged branch)
+
+delete pushed branch 
+git push -d origin devlop
