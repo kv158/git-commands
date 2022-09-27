@@ -13,7 +13,7 @@ tail ~/.ssh/id_ed25519.pub
 
 5.copy sha key and paste to git hub.
 
-
+tail ~/.ssh/id_ed25519.pub
 
 push an existing repository from the command line:-
 git remote add origin https://github.com/kv158/kv.git
